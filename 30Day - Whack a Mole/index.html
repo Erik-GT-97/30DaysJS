@@ -66,9 +66,9 @@
 
         function startGame(){
             scoreBoard.textContent = 0
-            timeUp = false 
+            lastTimeUp = false 
             peep()
-            setTimeout(()=> timeUp = true, 10000)
+            setTimeout(()=> lastTimeUp = true, 10000)
         }
 
         function bonk(e){
